@@ -4,23 +4,34 @@
   
       <!-- İletişim Bilgileri ve Sosyal Medya İkonları -->
       <div class="flex flex-col md:flex-row justify-between items-start">
-        <!-- İletişim Bilgileri -->
-        <div class="mb-6 md:mb-0">
-          <h3 class="text-sm font-semibold mb-2">İletişim Bilgileri</h3>
-          <p class="text-xs flex items-center mb-1">
-            <LocationIcon class="text-blue-400 text-lg mr-2" />
-            ERÜ Araştırma Dekanlığı, AR-GE Binası, Melikgazi/Kayseri
-          </p>
-          <p class="text-xs flex items-center mb-1">
-            <PhoneIcon class="text-blue-400 text-lg mr-2" />
-            +90 352 207 66 66 / 12500
-          </p>
-          <p class="text-xs flex items-center">
-            <MailIcon class="text-blue-400 text-lg mr-2" />
-            ardek@erciyes.edu.tr
-          </p>
-        </div>
-      </div>
+  <!-- İletişim Bilgileri -->
+  <div class="mb-6 md:mb-0">
+    <h3 class="text-sm font-semibold mb-2">İletişim Bilgileri</h3>
+    <p class="text-xs flex items-center mb-1">
+      <a
+        href="https://maps.app.goo.gl/NCYfo3anfrxz9t8K8"
+        target="_blank"
+        class="flex items-center text-white hover:underline"
+      >
+        <LocationIcon class="text-blue-400 text-lg mr-2" />
+        ERÜ Araştırma Dekanlığı, Köşk, Fakülte İçi Küme Evleri No:4, 38030 Melikgazi/Kayseri
+      </a>
+    </p>
+    <p class="text-xs flex items-center mb-1">
+      <a href="tel:+903522076666" class="flex items-center text-white hover:underline">
+        <PhoneIcon class="text-blue-400 text-lg mr-2" />
+        +90 352 207 66 66 / 12500
+      </a>
+    </p>
+    <p class="text-xs flex items-center">
+      <a href="mailto:ardek@erciyes.edu.tr" class="flex items-center text-white hover:underline">
+        <MailIcon class="text-blue-400 text-lg mr-2" />
+        ardek@erciyes.edu.tr
+      </a>
+    </p>
+  </div>
+</div>
+
 
       <!-- Sosyal Medya İkonları -->
       <div class="text-right">
