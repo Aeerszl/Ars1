@@ -171,16 +171,30 @@ const goToHomePage = () => {
 
       <CardFooter class="flex flex-col gap-4 px-6 pb-6">
         <div>
-          <Label>Son Geçerlilik Tarihi</Label>
-          {{ value }}
-    <Calendar
-      v-model="value"
-      locale="tr"
-      :min-value="new CalendarDate(year, month, date)"
-            :weekday-format="'short'"
-      class="rounded-md border w-full mt-2"
-    />
-        </div>
+  <Label>Son Geçerlilik Tarihi</Label>
+  <Popover>
+    <PopoverTrigger as-child>
+      <Button
+        variant="outline"
+        class="w-full text-start font-normal"
+      >
+        <span>{{ value ? value.toString() : 'Tarih Seçin' }}</span>
+      </Button>
+    </PopoverTrigger>
+    <PopoverContent class="w-auto p-0">
+      <Calendar
+        v-model="value"
+        locale="tr"
+        :min-value="new CalendarDate(year, month, date)"
+        :weekday-format="'short'"
+        calendar-label="Son Geçerlilik Tarihi"
+        initial-focus
+        class="rounded-md border w-full"
+      />
+    </PopoverContent>
+  </Popover>
+</div>
+
         <p v-if="errorMessage" class="text-red-500">{{ errorMessage }}</p>
         <Button
           class="w-full bg-blue-900 text-white hover:bg-blue-600"

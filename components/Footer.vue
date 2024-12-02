@@ -1,3 +1,15 @@
+
+<script setup lang="ts">
+const currentYear = new Date().getFullYear(); // Dinamik olarak yılı al
+
+import LocationIcon from '~/components/ui/LocationIcon.vue';
+import PhoneIcon from './ui/PhoneIcon.vue';
+import MailIcon from './ui/MailIcon.vue';
+import FacebookIcon from './ui/FacebookIcon.vue';
+import XIcon from './ui/XIcon.vue';
+import YoutubeIcon from './ui/YoutubeIcon.vue';
+import InstagramIcon from './ui/InstagramIcon.vue';
+</script>
 <template>
   <footer class="bg-gray-800 text-white py-4 mt-12">
     <div class="container mx-auto">
@@ -54,21 +66,12 @@
 
       <!-- Telif Hakkı -->
       <div class="mt-4 text-center border-t border-gray-600 pt-4">
-        <p class="text-xs">&copy; 2024 Erciyes Üniversitesi | Tüm Hakları Saklıdır.</p>
-      </div>
+    <p class="text-xs">&copy; {{ currentYear }} Erciyes Üniversitesi | Tüm Hakları Saklıdır.</p>
+  </div>
     </div>
   </footer>
 </template>
 
-<script setup lang="ts">
-import LocationIcon from '~/components/ui/LocationIcon.vue';
-import PhoneIcon from './ui/PhoneIcon.vue';
-import MailIcon from './ui/MailIcon.vue';
-import FacebookIcon from './ui/FacebookIcon.vue';
-import XIcon from './ui/XIcon.vue';
-import YoutubeIcon from './ui/YoutubeIcon.vue';
-import InstagramIcon from './ui/InstagramIcon.vue';
-</script>
 
 <style scoped>
 /* Footer stilini burada ekleyebilirsin */
