@@ -19,12 +19,13 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { Calendar } from '@/components/ui/calendar'
-import { type DateValue,CalendarDate, getLocalTimeZone, today } from '@internationalized/date'
-import { type Ref, ref, } from 'vue'
+import { type DateValue, CalendarDate, getLocalTimeZone, today } from '@internationalized/date'
+import { type Ref, ref } from 'vue'
 import { useRouter } from 'vue-router'
+
 const d = new Date() // Minimum tarih olarak bugünün tarihi
 const date = ref(d.getDate())
-const month = ref(d.getMonth()+1)
+const month = ref(d.getMonth() + 1)
 const year = ref(d.getFullYear())
 const router = useRouter()
 const value = ref(today(getLocalTimeZone())) as Ref<DateValue>
@@ -40,13 +41,25 @@ const formData = ref({
 })
 const isFormSubmitted = ref(false)
 const errorMessage = ref('')
+const errorFields = ref<string[]>([])
 
 const validateForm = () => {
   const { title, name, description, features, email, type, location } = formData.value
-  if (!title || !name || !description || !features || !email || !type || !location) {
-    errorMessage.value = 'Lütfen tüm alanları doldurun.'
+  errorFields.value = []
+
+  if (!title) errorFields.value.push('Başlık')
+  if (!name) errorFields.value.push('İş Yeri İsmi')
+  if (!description) errorFields.value.push('İş Tanımı')
+  if (!features) errorFields.value.push('Aranan Özellikler')
+  if (!email) errorFields.value.push('E-posta')
+  if (!type) errorFields.value.push('İlan Türü')
+  if (!location) errorFields.value.push('Konum')
+
+  if (errorFields.value.length > 0) {
+    errorMessage.value = `Lütfen şu alanları doldurun: ${errorFields.value.join(', ')}.`
     return false
   }
+
   errorMessage.value = ''
   return true
 }
@@ -171,29 +184,29 @@ const goToHomePage = () => {
 
       <CardFooter class="flex flex-col gap-4 px-6 pb-6">
         <div>
-  <Label>Son Geçerlilik Tarihi</Label>
-  <Popover>
-    <PopoverTrigger as-child>
-      <Button
-        variant="outline"
-        class="w-full text-start font-normal"
-      >
-        <span>{{ value ? value.toString() : 'Tarih Seçin' }}</span>
-      </Button>
-    </PopoverTrigger>
-    <PopoverContent class="w-auto p-0">
-      <Calendar
-        v-model="value"
-        locale="tr"
-        :min-value="new CalendarDate(year, month, date)"
-        :weekday-format="'short'"
-        calendar-label="Son Geçerlilik Tarihi"
-        initial-focus
-        class="rounded-md border w-full"
-      />
-    </PopoverContent>
-  </Popover>
-</div>
+          <Label>Son Geçerlilik Tarihi</Label>
+          <Popover>
+            <PopoverTrigger as-child>
+              <Button
+                variant="outline"
+                class="w-full text-start font-normal"
+              >
+                <span>{{ value ? value.toString() : 'Tarih Seçin' }}</span>
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent class="w-auto p-0">
+              <Calendar
+                v-model="value"
+                locale="tr"
+                :min-value="new CalendarDate(year, month, date)"
+                :weekday-format="'short'"
+                calendar-label="Son Geçerlilik Tarihi"
+                initial-focus
+                class="rounded-md border w-full"
+              />
+            </PopoverContent>
+          </Popover>
+        </div>
 
         <p v-if="errorMessage" class="text-red-500">{{ errorMessage }}</p>
         <Button
