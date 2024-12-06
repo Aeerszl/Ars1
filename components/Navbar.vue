@@ -28,6 +28,10 @@
           <NuxtLink to="/" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">Ana Sayfa</NuxtLink>
         </li>
         <li class="flex items-center space-x-2">
+          <groupIcon class="text-blue-900 text-lg" />
+          <NuxtLink to="/grup" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">Gruplar</NuxtLink>
+        </li>
+        <li class="flex items-center space-x-2">
           <ListIcon class="text-blue-900 text-lg" />
           <NuxtLink to="/PageList" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">İlan Listesi</NuxtLink>
         </li>
@@ -42,6 +46,10 @@
         <li class="flex items-center space-x-2" @click="closeMenu">
           <HomeIcon class="text-blue-900 text-lg" />
           <NuxtLink to="/" class="text-xl font-semibold text-blue-900 hover:text-blue-700">Ana Sayfa</NuxtLink>
+        </li>
+        <li class="flex items-center space-x-2">
+          <groupIcon class="text-blue-900 text-lg" />
+          <NuxtLink to="/grup" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">Gruplar</NuxtLink>
         </li>
         <li class="flex items-center space-x-2" @click="closeMenu">
           <ListIcon class="text-blue-900 text-lg" />
@@ -62,7 +70,7 @@ import HomeIcon from '~/components/ui/HomeIcon'; // ShadCN ikonları import edil
 import ListIcon from '~/components/ui/ListIcon';
 import PlusIcon from '~/components/ui/PlusIcon';
 import MenuIcon from '~/components/ui/MenuIcon';
-
+import groupIcon from "./groupIcon.vue";
 const isMenuOpen = ref(false);
 
 function toggleMenu() {

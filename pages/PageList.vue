@@ -100,7 +100,7 @@ const closeDetails = () => {
         <Card class="flex flex-col justify-between h-full p-6">
           <CardHeader class="p-4">
             <CardTitle class="text-lg font-semibold text-gray-800 truncate">
-              {{ ilan.title }}
+              {{ ilan.title.slice(0,100) }}
             </CardTitle>
           </CardHeader>
           <CardContent class="p-4 flex-grow">
@@ -140,7 +140,7 @@ const closeDetails = () => {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1048px) {
   .grid {
     grid-template-columns: repeat(3, 1fr); /* Kart sayısını 3'e düşürdük */
   }

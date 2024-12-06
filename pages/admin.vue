@@ -10,7 +10,8 @@ import {
 } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
-
+import BadgeCheckIcon from '~/components/ui/BadgeCheckIcon.vue'
+import BadgeXIcon from '~/components/ui/BadgeXIcon.vue'
 // Ilan tür tanımı
 interface Ilan {
   id: number
@@ -129,7 +130,7 @@ const reddetIlan = (id: number) => {
             class="bg-red-500 hover:bg-red-600 text-white"
             @click="reddetIlan(ilan.id)"
           >
-            Reddet
+           <BadgeXIcon/>
           </Button>
           <Button
             :class="{
@@ -139,7 +140,8 @@ const reddetIlan = (id: number) => {
             :disabled="ilan.status === 'approved'"
             @click="onaylaIlan(ilan.id)"
           >
-            {{ ilan.status === 'approved' ? 'Onaylandı' : 'Onayla' }}
+            <template v-if="ilan.status === 'approved'">Onaylandı</template>
+            <template v-else><BadgeCheckIcon/></template>
           </Button>
         </CardFooter>
       </Card>

@@ -67,8 +67,8 @@ const validateForm = () => {
 // İlan ekle ve admin sayfasına yönlendirilmek üzere verileri gönder
 const submitForm = () => {
   if (validateForm()) {
-    formData.value.date = value.value.toString()
-    // Admin verilerine ekle (localStorage üzerinden simüle ediyoruz)
+    const selectedDate = value.value
+    formData.value.date = `${selectedDate.day}/${selectedDate.month}/${selectedDate.year}` // Tarih formatı düzenlendi
     const existingData = JSON.parse(localStorage.getItem('ilanlar') || '[]')
     existingData.push({ ...formData.value, id: Date.now() }) // Her ilana bir ID ekledik
     localStorage.setItem('ilanlar', JSON.stringify(existingData))
@@ -191,7 +191,7 @@ const goToHomePage = () => {
                 variant="outline"
                 class="w-full text-start font-normal"
               >
-                <span>{{ value ? value.toString() : 'Tarih Seçin' }}</span>
+                <span>{{ value ? `${value.day}/${value.month}/${value.year}` : 'Tarih Seçin' }}</span> <!-- Görüntülenen tarih formatı düzenlendi -->
               </Button>
             </PopoverTrigger>
             <PopoverContent class="w-auto p-0">

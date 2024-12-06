@@ -1,0 +1,211 @@
+<template>
+  <div class="container mx-auto my-8 px-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Dinamik Kartlar -->
+      <Card
+        v-for="(card, index) in paginatedCards"
+        :key="index"
+        class="relative flex flex-col justify-between h-full p-4 border rounded-lg shadow-md"
+      >
+        <!-- Sol üstte resim -->
+        <div class="w-24 h-24 md:w-28 md:h-28 overflow-hidden mr-4">
+          <img
+            :src="`https://avesis.erciyes.edu.tr/researchteamsite/grouplogo/${card._source.shortname}`"
+            alt="Shortname"
+            class="object-contain w-full h-full"
+          />
+        </div>
+
+        <!-- İçerik -->
+        <div class="flex-1">
+          <CardHeader class="mb-2">
+            <CardTitle class="text-lg font-semibold">
+              {{ card._source.title_primary }}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p class="text-gray-600">
+              {{ truncatedDescription(card._source.reference_primary.Description) }}
+              <!-- Devamını oku bağlantısı -->
+              <span 
+                v-if="stripHtml(card._source.reference_primary.Description).length >= 250" 
+                class="text-blue-900 cursor-pointer" 
+                @click="openDialog(card._source.reference_primary.Description, card._source.title_primary)">
+                ... Devamını oku
+              </span>
+            </p>
+          </CardContent>
+        </div>
+
+        <!-- Sabit Buton -->
+        <CardFooter class="mt-auto">
+          <Button
+            class="w-full bg-blue-500 text-white hover:bg-blue-600"
+            @click="goToHomePage"
+          >
+            İş Birliği  <HandshakeIcon/>
+          </Button>
+        </CardFooter>
+      </Card>
+    </div>
+
+    <!-- Pagination -->
+    <Pagination 
+  v-slot="{ page }" 
+  :total="97" 
+  :sibling-count="1" 
+  show-edges 
+  :default-page="1" 
+  :itemsPerPage="9"
+>
+  <PaginationList 
+    v-slot="{ items }" 
+    class="flex items-center gap-2 justify-center flex-wrap sm:gap-4 sm:flex-nowrap"
+  >
+    <!-- İlk Sayfa Butonu -->
+    <PaginationFirst class="hidden sm:block" />
+    
+    <!-- Önceki Sayfa Butonu -->
+    <PaginationPrev class="w-8 h-8 flex items-center justify-center text-sm sm:w-10 sm:h-10 sm:px-4 border border-gray-300 rounded-md hover:bg-gray-200" />
+
+    <!-- Sayfa Numaraları -->
+    <template v-for="(item, index) in items" :key="'pagination-' + index">
+      <PaginationListItem 
+        v-if="item.type === 'page'" 
+        :value="item.value" 
+        as-child
+      >
+        <Button 
+          :variant="item.value === page ? 'default' : 'outline'" 
+          class="w-8 h-8 text-sm flex items-center justify-center border sm:w-10 sm:h-10 sm:px-4 sm:py-2 sm:text-base rounded-md hover:bg-blue-100"
+          @click="goToPage(item.value)"
+        >
+          {{ item.value }}
+        </Button>
+      </PaginationListItem>
+      
+      <!-- Noktalı Eleman -->
+      <PaginationEllipsis v-else class="text-gray-500 text-sm sm:text-base px-2" />
+    </template>
+
+    <!-- Sonraki Sayfa Butonu -->
+    <PaginationNext class="w-8 h-8 flex items-center justify-center text-sm sm:w-10 sm:h-10 sm:px-4 border border-gray-300 rounded-md hover:bg-gray-200" />
+    
+    <!-- Son Sayfa Butonu -->
+    <PaginationLast class="hidden sm:block" />
+  </PaginationList>
+</Pagination>
+
+  </div>
+
+  <!-- Dialog -->
+  <Dialog v-model:open="isDialogOpen">
+    <DialogTrigger as-child>
+      <Button variant="outline" class="hidden">Open Description</Button>
+    </DialogTrigger>
+    <DialogContent 
+      class="w-full max-w-[90%] sm:max-w-[425px] md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1000px] p-4 sm:p-6 md:p-8 bg-white rounded-lg shadow-lg">
+      <DialogHeader class="text-center mb-4">
+        <h2 class="text-xl font-bold text-gray-800">{{ fullTitle }}</h2> <!-- Başlık burada -->
+      </DialogHeader>
+      <div class="overflow-y-auto max-h-[70vh] text-gray-900">
+        <p>{{ fullDescription }}</p>
+      </div>
+      <DialogFooter class="flex justify-end mt-4">
+        <Button 
+          @click="isDialogOpen = false" 
+          class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition">
+          Kapat
+        </Button>
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
+</template>
+
+<script setup>
+import { ref, computed, onMounted } from "vue";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTrigger } from "@/components/ui/dialog";
+import HandshakeIcon from "~/components/ui/HandshakeIcon.vue";
+
+const totalCards = ref(97); // Toplam kart sayısı
+const cards = ref([]); // Tüm kartlar
+const currentPage = ref(1); // Geçerli sayfa numarası
+const isDialogOpen = ref(false);
+const fullDescription = ref(""); 
+const fullTitle = ref(""); // Başlık için yeni bir ref
+
+// JSON dosyasını yükleme
+onMounted(async () => {
+  const response = await fetch("/group.json");
+  const data = await response.json();
+  cards.value = data.hits; // Tüm kart verilerini yükle
+});
+
+// Sayfalama için kartları filtrele
+const paginatedCards = computed(() => {
+  const start = (currentPage.value - 1) * 9;
+  const end = start + 9;
+  return cards.value.slice(start, end); // Aktif sayfada gösterilecek kartlar
+});
+
+const totalPages = computed(() => {
+  return Math.ceil(totalCards.value / 9); // 9 kart başına bir sayfa
+});
+
+// HTML etiketlerini temizlemek için yardımcı fonksiyon
+const stripHtml = (html) => {
+  const div = document.createElement("div");
+  div.innerHTML = html;
+  return div.textContent || div.innerText || "";
+};
+
+// Karakterleri sınırlamak için yardımcı fonksiyon
+const truncatedDescription = (description) => {
+  const stripped = stripHtml(description);
+  return stripped.trim().length > 250 ? stripped.slice(0, 250) : stripped;
+};
+
+// Dialog'ı açmak ve tam açıklamayı göstermek için yardımcı fonksiyon
+const openDialog = (description, title) => {
+  fullDescription.value = stripHtml(description); // Açıklamayı temizle
+  fullTitle.value = title; // Başlığı ata
+  isDialogOpen.value = true; // Dialog'u aç
+};
+
+// Sayfa değiştirildiğinde güncelleme yapmak için
+const goToPage = (pageNumber) => {
+  if (pageNumber > 0 && pageNumber <= totalPages.value) {
+    currentPage.value = pageNumber;
+  }
+};
+</script>
+
+<style scoped>
+/* Responsive grid ve kart stilleri */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+img {
+  object-fit: contain;
+}
+</style>
