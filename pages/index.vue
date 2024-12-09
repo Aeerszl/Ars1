@@ -6,9 +6,9 @@
     <section class="bg-blue-900 text-white py-12 text-center">
       <h1 class="text-4xl font-bold">Hoşgeldiniz</h1>
       <p class="mt-2 text-lg">
-        Erciyes Üniversitesi Araştırma Dekanlığı'nın resmi iş ilanı yayınlama web sitesine hoş geldiniz.
+        "Erciyes Üniversitesi Araştırma ve İşbirliği İlanlarına Hoş Geldiniz"
       </p>
-      <span class="italic"> "Hızlı ve güvenilir iş ilanları için doğru yerdesiniz!"</span>
+      <span class="italic"> "Yeni İşbirliği Fırsatları İçin Gruplara Göz Atın!"</span>
     </section>
 
     <!-- Bilgilendirme İçerikleri ve İstatistikler -->
@@ -17,20 +17,20 @@
         <div class="bg-white shadow-md rounded-lg p-6">
           <div class="text-blue-600 text-4xl mb-4">
           </div>
-          <h2 class="text-2xl font-semibold text-blue-900">100+ İş İlanı</h2>
-          <p class="mt-2 text-gray-600">Her gün güncellenen iş ilanlarıyla fırsatları keşfedin.</p>
+          <h2 class="text-2xl font-semibold text-blue-900">"100+ Araştırma Grubu"</h2>
+          <p class="mt-2 text-gray-600">Çeşitli alanlardaki araştırma gruplarına katılın ve işbirlikleri kurun.</p>
         </div>
         <div class="bg-white shadow-md rounded-lg p-6">
           <div class="text-green-600 text-4xl mb-4">
           </div>
-          <h2 class="text-2xl font-semibold text-blue-900">50+ Firma</h2>
-          <p class="mt-2 text-gray-600">Güvenilir firmalarla iletişime geçin ve iş ortaklıkları kurun.</p>
+          <h2 class="text-2xl font-semibold text-blue-900">"10+ Araştırma Merkezi"</h2>
+          <p class="mt-2 text-gray-600">Gelişmiş araştırma merkezleriyle işbirliği fırsatlarını keşfedin.</p>
         </div>
         <div class="bg-white shadow-md rounded-lg p-6">
           <div class="text-purple-600 text-4xl mb-4">
           </div>
-          <h2 class="text-2xl font-semibold text-blue-900">1.000+ Kullanıcı</h2>
-          <p class="mt-2 text-gray-600">Platformumuzdaki kullanıcı topluluğuna katılın.</p>
+          <h2 class="text-2xl font-semibold text-blue-900">300+ Proje</h2>
+          <p class="mt-2 text-gray-600">Çeşitli projelerde yer alarak deneyim kazanın ve katkı sağlayın</p>
         </div>
       </div>
     </section>
@@ -43,7 +43,7 @@
           <MegaphoneIcon />
         </div>
         <h3 class="text-xl font-semibold mb-2">Hızlı ve Güvenilir İş İlanları</h3>
-        <p class="text-gray-600">İş ilanlarınızı yayınlayarak doğru yeteneklere hızla ulaşın.</p>
+        <p class="text-gray-600">Araştırma gruplarıyla ve merkezleriyle hızlı ve etkili işbirlikleri kurun.</p>
       </div>
 
       <!-- Kart 2 -->
@@ -51,8 +51,8 @@
         <div class="text-yellow-500 text-4xl mb-4">
           <PeopleIcon />
         </div>
-        <h3 class="text-xl font-semibold mb-2">Firmalar ve Adaylar İçin Bir Araya Gelme Noktası</h3>
-        <p class="text-gray-600">Şirketlerin yetenek arayışlarını destekliyoruz, adaylara yeni fırsatlar sunuyoruz.</p>
+        <h3 class="text-xl font-semibold mb-2">Araştırma Grupları ile İşbirliği</h3>
+        <p class="text-gray-600">Erciyes Üniversitesi'ndeki araştırma grupları ile birlikte projeler geliştirin ve işbirlikleri fırsatlarını keşfedin</p>
       </div>
 
       <!-- Kart 3 -->
@@ -60,8 +60,8 @@
         <div class="text-green-600 text-4xl mb-4">
           <CheckIcon />
         </div>
-        <h3 class="text-xl font-semibold mb-2">Admin Onayı ile Kaliteli İçerik</h3>
-        <p class="text-gray-600">Tüm ilanlar, kaliteli bir deneyim sağlamak için admin onayına tabidir.</p>
+        <h3 class="text-xl font-semibold mb-2">Araştırma Merkezleri ile Çalışma Fırsatları</h3>
+        <p class="text-gray-600">Erciyes Üniversitesi'nin araştırma merkezleriyle işbirliği yaparak yeni projelere imza atın</p>
       </div>
 
       <!-- Kart 4 -->
@@ -69,8 +69,8 @@
         <div class="text-green-600 text-4xl mb-4">
           <ArrowUpIcon />
         </div>
-        <h3 class="text-xl font-semibold mb-2">Hemen İş İlanı Yayınlayın</h3>
-        <p class="text-gray-600">Şirketiniz için aradığınız profesyonelleri bulmak şimdi daha kolay!</p>
+        <h3 class="text-xl font-semibold mb-2">Bilimsel Çalışmalarla Geleceği Şekillendirin</h3>
+        <p class="text-gray-600">Araştırma gruplarıyla ortak projelere imza atarak bilimsel alanda etkili işbirlikleri yapın</p>
       </div>
 
       <!-- Kart 5 -->
@@ -88,11 +88,11 @@
           <GlobeIcon />
         </div>
         <h3 class="text-xl font-semibold mb-2">Herkese Açık ve Kullanıcı Dostu</h3>
-        <p class="text-gray-600">Üyelik gerekmeden, herkesin erişebileceği ilanlar burada.</p>
+        <p class="text-gray-600">Üyelik gerekmeden, herkesin erişebileceği imkanlar burada.</p>
       </div>
     </section>
 
-    <!-- Kullanıcı Bilgilendirme Alanları -->
+    <!-- Kullanıcı Bilgilendirme Alanları 
     <section class="py-12 px-4">
       <div class="container mx-auto grid md:grid-cols-2 gap-8">
         <div class="bg-white shadow-md rounded-lg p-6">
@@ -122,7 +122,7 @@
           >İş İlanlarını Gör</NuxtLink>
         </div>
       </div>
-    </section>
+    </section> -->
     </div>
 </template>
 

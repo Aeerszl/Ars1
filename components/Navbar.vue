@@ -10,8 +10,9 @@
   <div class="bg-white shadow-md sticky top-0 z-50">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
       <!-- Logo -->
+       <img src="@/public/images/erülogo.png" alt="Logo" class="h-10 lg:mr-4" />
       <img src="@/public/images/erüarsdeklogo.png" alt="Logo" class="h-10 lg:mr-4" />
-<span class="text-xl font-bold text-blue-900">Araştırma Dekanlığı İlanlar</span>
+<span class="text-xl font-bold text-blue-900">Araştırma Dekanlığı İşbirliği</span>
 
 
       <!-- Menü Ikonu (Mobilde) -->
@@ -32,13 +33,18 @@
           <NuxtLink to="/grup" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">Gruplar</NuxtLink>
         </li>
         <li class="flex items-center space-x-2">
+          <merkezIcon class="text-blue-900 text-lg" />
+          <NuxtLink to="/merkez" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">Merkezler</NuxtLink>
+        </li>
+        
+<!--<li class="flex items-center space-x-2">
           <ListIcon class="text-blue-900 text-lg" />
           <NuxtLink to="/PageList" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">İlan Listesi</NuxtLink>
         </li>
         <li class="flex items-center space-x-2">
           <PlusIcon class="text-blue-900 text-lg" />
           <NuxtLink to="/ilanEkle" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">İlan Ekle</NuxtLink>
-        </li>
+        </li>-->
       </ul>
 
       <!-- Menü Linkleri (Mobilde) -->
@@ -71,6 +77,7 @@ import ListIcon from '~/components/ui/ListIcon';
 import PlusIcon from '~/components/ui/PlusIcon';
 import MenuIcon from '~/components/ui/MenuIcon';
 import groupIcon from "./groupIcon.vue";
+import merkezIcon from "./ui/merkezIcon.vue";
 const isMenuOpen = ref(false);
 
 function toggleMenu() {
