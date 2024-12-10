@@ -43,7 +43,7 @@
             class="w-full bg-blue-500 text-white hover:bg-blue-600"
             @click="openCollaborationForm(card._source.title_primary, card._source.shortname)"
           >
-            İş Birliği  <HandshakeIcon/>
+            İş birliği  <HandshakeIcon/>
           </Button>
         </CardFooter>
       </Card>

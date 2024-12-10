@@ -12,7 +12,7 @@
       <!-- Logo -->
        <img src="@/public/images/erülogo.png" alt="Logo" class="h-10 lg:mr-4" />
       <img src="@/public/images/erüarsdeklogo.png" alt="Logo" class="h-10 lg:mr-4" />
-<span class="text-xl font-bold text-blue-900">Araştırma Dekanlığı İşbirliği</span>
+<span class="text-xl font-bold text-blue-900">Araştırma Dekanlığı İş Birliği</span>
 
 
       <!-- Menü Ikonu (Mobilde) -->
