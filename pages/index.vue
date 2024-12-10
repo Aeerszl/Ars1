@@ -40,27 +40,27 @@
 
 <!-- İş Birliği Teklifi Card -->
 <section class="py-6 px-4">
-    <Card class="w-full max-w-screen-2xl mx-auto bg-white shadow-md rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between">
-      <div class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
-        <div>
-          <CardTitle class="text-xl sm:text-2xl font-semibold text-blue-900">
-            İş Birliği Tekliflerinizi Bekliyoruz!
-          </CardTitle>
-          <CardDescription class="text-gray-600">
-            Bizimle iş birliği yaparak projelerinizde yeni ufuklara yelken açın.
-          </CardDescription>
-        </div>
+  <Card class="w-full max-w-screen-2xl mx-auto bg-white shadow-md rounded-lg p-6 flex flex-col sm:flex-row sm:items-center justify-between">
+    <div class="w-full flex flex-col sm:flex-row sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
+        <CardTitle class="text-2xl font-semibold text-blue-900">
+          İş Birliği Tekliflerinizi Bekliyoruz!
+        </CardTitle>
+        <CardDescription class="text-gray-600 text-lg mt-2 sm:mt-0">
+          Bizimle iş birliği yaparak projelerinizde yeni ufuklara yelken açın.
+        </CardDescription>
       </div>
-      <CardFooter class="mt-4 sm:mt-0">
-        <Button
-          class="bg-blue-500 text-white hover:bg-blue-600 px-6 py-2"
-          @click="isCollaborationFormOpen = true"
-        >
-          İş Birliği Teklif Et <Handshake />
-        </Button>
-      </CardFooter>
-    </Card>
-  </section>
+    </div>
+    <CardFooter class="w-full sm:w-auto mt-6 sm:mt-0 flex justify-center sm:justify-end">
+      <Button
+        class="bg-blue-500 text-white hover:bg-blue-600 px-8 py-3 mt-4 rounded-md text-lg w-full sm:w-auto"
+        @click="isCollaborationFormOpen = true"
+      >
+        İş Birliği Teklif Et <Handshake />
+      </Button>
+    </CardFooter>
+  </Card>
+</section>
 
 <Dialog v-model:open="isCollaborationFormOpen">
   <DialogContent class="w-full max-w-[90%] sm:max-w-[75%] md:max-w-[60%] lg:max-w-[50%] p-6 bg-white rounded-lg shadow-lg">
@@ -105,65 +105,65 @@
   </DialogContent>
 </Dialog>
 
-
-
-    
-    <!-- Görsellerle Anlatım (Artık simgelerle anlatım) -->
-    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-16 py-16 bg-gray-50">
-      <!-- Kart 1 -->
-      <div class="bg-white rounded-lg shadow-lg p-2 text-center hover:shadow-xl transition transform hover:scale-105">
-        <div class="text-blue-600 text-4xl mb-4">
-          <MegaphoneIcon />
-        </div>
-        <h3 class="text-xl font-semibold mb-2">Hızlı ve Güvenilir İş birliği</h3>
-        <p class="text-gray-600">Araştırma gruplarıyla ve merkezleriyle hızlı ve etkili iş birlikleri kurun.</p>
+<section class="container mx-auto px-4 sm:px-8 lg:px-4 py-4 bg-gray-50">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Kart 1 -->
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
+      <div class="text-blue-600 text-4xl mb-4">
+        <MegaphoneIcon />
       </div>
+      <h3 class="text-xl font-semibold mb-2">Hızlı ve Güvenilir İş birliği</h3>
+      <p class="text-gray-600">Araştırma gruplarıyla ve merkezleriyle hızlı ve etkili iş birlikleri kurun.</p>
+    </div>
 
-      <!-- Kart 2 -->
-      <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
-        <div class="text-yellow-400 text-4xl mb-4">
-          <PeopleIcon />
-        </div>
-        <h3 class="text-xl font-semibold mb-2">Araştırma Grupları ile İş birliği</h3>
-        <p class="text-gray-600">Erciyes Üniversitesi'ndeki araştırma grupları ile birlikte projeler geliştirin ve iş birlikleri fırsatlarını keşfedin</p>
+    <!-- Kart 2 -->
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
+      <div class="text-yellow-400 text-4xl mb-4">
+        <PeopleIcon />
       </div>
+      <h3 class="text-xl font-semibold mb-2">Araştırma Grupları ile İş birliği</h3>
+      <p class="text-gray-600">Erciyes Üniversitesi'ndeki araştırma grupları ile birlikte projeler geliştirin ve iş birlikleri fırsatlarını keşfedin</p>
+    </div>
 
-      <!-- Kart 3 -->
-      <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
-        <div class="text-orange-600 text-4xl mb-4">
-          <Network />
-        </div>
-        <h3 class="text-xl font-semibold mb-2">Araştırma Merkezleri ile Çalışma Fırsatları</h3>
-        <p class="text-gray-600">Erciyes Üniversitesi'nin araştırma merkezleriyle iş birliği yaparak yeni projelere imza atın</p>
+    <!-- Kart 3 -->
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
+      <div class="text-orange-600 text-4xl mb-4">
+        <Network />
       </div>
+      <h3 class="text-xl font-semibold mb-2">Araştırma Merkezleri ile Çalışma Fırsatları</h3>
+      <p class="text-gray-600">Erciyes Üniversitesi'nin araştırma merkezleriyle iş birliği yaparak yeni projelere imza atın</p>
+    </div>
 
-      <!-- Kart 4 -->
-      <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
-        <div class="text-green-600 text-4xl mb-4">
-          <Microscope />
-        </div>
-        <h3 class="text-xl font-semibold mb-2">Bilimsel Çalışmalarla Geleceği Şekillendirin</h3>
-        <p class="text-gray-600">Araştırma gruplarıyla ortak projelere imza atarak bilimsel alanda etkili iş birlikleri yapın</p>
+    <!-- Kart 4 -->
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
+      <div class="text-green-600 text-4xl mb-4">
+        <Microscope />
       </div>
+      <h3 class="text-xl font-semibold mb-2">Bilimsel Çalışmalarla Geleceği Şekillendirin</h3>
+      <p class="text-gray-600">Araştırma gruplarıyla ortak projelere imza atarak bilimsel alanda etkili iş birlikleri yapın</p>
+    </div>
 
-      <!-- Kart 5 -->
-      <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
-        <div class="text-red-500 text-4xl mb-4">
-          <SearchIcon />
-        </div>
-        <h3 class="text-xl font-semibold mb-2">Projeleri Hemen Keşfedin</h3>
-        <p class="text-gray-600">Fırsatları yakalayın! Güncel projelere kolayca ulaşabilirsiniz.</p>
+    <!-- Kart 5 -->
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
+      <div class="text-red-500 text-4xl mb-4">
+        <SearchIcon />
       </div>
+      <h3 class="text-xl font-semibold mb-2">Projeleri Hemen Keşfedin</h3>
+      <p class="text-gray-600">Fırsatları yakalayın! Güncel projelere kolayca ulaşabilirsiniz.</p>
+    </div>
 
-      <!-- Kart 6 -->
-      <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
-        <div class="text-pink-600 text-4xl mb-4">
-          <GlobeIcon />
-        </div>
-        <h3 class="text-xl font-semibold mb-2">Herkese Açık ve Kullanıcı Dostu</h3>
-        <p class="text-gray-600">Üyelik gerekmeden, herkesin erişebileceği imkanlar burada.</p>
+    <!-- Kart 6 -->
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition transform hover:scale-105">
+      <div class="text-pink-600 text-4xl mb-4">
+        <GlobeIcon />
       </div>
-    </section>
+      <h3 class="text-xl font-semibold mb-2">Herkese Açık ve Kullanıcı Dostu</h3>
+      <p class="text-gray-600">Üyelik gerekmeden, herkesin erişebileceği imkanlar burada.</p>
+    </div>
+  </div>
+</section>
+
+
 
     <!-- Kullanıcı Bilgilendirme Alanları 
     <section class="py-12 px-4">
