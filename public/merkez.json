@@ -2,6 +2,166 @@
     "hits":  [
       {
         "id": 1,
+        "title": " Afrika Ekonomik ve Sosyal Uygulama ve Araştırma Merkezi",
+       "description":"Merkezin amacı; Afrika kıtasındaki ülkelerin siyasi, ekonomik ve sosyal yapıları üzerine nitelikli ve derinlemesine çalış-malar gerçekleştirerek Türkiye’nin kıta ülkelerine yönelik ilişkilerinin geliştirilmesine yönelik katkı sağlamak; Afrika kıtasının daha yakından tanınmasına yardımcı olacak bilimsel ve akademik proje ve raporlar hazırlamak; Türkiye’nin Afrika ülkelerinde tanınırlığını artıracak ortak çalışma ve işbirlikleri gerçekleştirmek; Afrika ülkelerinin tarihi, siyaseti, ekonomisi, dili, edebiyatı ve yer altı zenginliklerini ele alan çalışmaların üretimini sağlamak; önemli bir ticaret potansiyeli olan Türk girişimcilerin Afrika’ya yönelik yatırımlar yapmasını sağlamak için gerekli danışmanlık ve yönlendirme hiz-metleri vermektir.",
+        "email": "afesam@erciyes.edu.tr",
+        "website": " https://afesam.erciyes.edu.tr/",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id": 2,
+        "title": "Astronomi ve Uzay Bilimleri Gözlemevi Uygulama ve Araştırma Merkezi (UZAYBİMER)",
+       "description":"Astronomi ve Uzay Bilimleri Gözlemevi Uygulama ve Araştırma Merkezi (UZAYBİMER), Radyo Astronomi alanında Türkiye'nin tek, optik astronomi alanında ise 35 ve 40 cm ayna çaplı ikiz teleskopları ile en yeni gözlemevidir.2007 yılında Devlet Planlama Teşkilatı - DPT (yeni adı Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı) tarafından desteklenen bir projenin ürünüdür. UZAYBİMER, L bandında yapılacak olan radyo astronomi gözlemleri ile Güneş radyo akısı takibi konularında ülkemizde ilk radyo astronomi çalışmalarını başlatmış olup sonuçları yakın zamanda yayınlanacaktır.T35 teleskobu ile Bilim-Toplum hizmetleri, T40 teleskobu ile de bilimsel çalışmaların yapılacağı merkezimizin, Multiwavelength (çok dalgaboylu) gölem çalışmaları yapan ilk ve tek gözlemevi olması yolunda son aşamaya gelinmiştir.",
+        "email": "uzaybimer@erciyes.edu.tr",
+        "website": "http://uzaybimer.erciyes.edu.tr/",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },    
+       {
+        "id":3 ,
+        "title": "Atçılık ve Binicilik Uygulama ve Araştırma Merkezi",
+       "description":"",
+        "email": "atbin@erciyes.edu.tr",
+        "website": " https://atbin.erciyes.edu.tr ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id": 4,
+        "title": "Betül-Ziya Eren Genom ve Kök Hücre Merkezi",
+       "description":"GENKÖK üreten ürettiği ile de araştırma yapan, mezuniyet sonrası eğitim veren, dünyada bilinir ülkemizde lider bir araştırma merkezi olma yolunda süratle ilerlemektedir. GENKÖK çalışanları ülkemizin ve diğer ülkelerin bilim insanlarına hizmet etmekten ve kendilerini birçok medeniyete ev sahipliği yapmış olan Kayseri’de ağırlamaktan mutluluk duymaktadır.",
+        "email": "genkok@erciyes.edu.tr",
+        "website": "http://genkok.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id": 5,
+        "title": " Bilgisayar Bilimleri Uygulama ve Araştırma Merkezi",
+       "description":"",
+        "email": "baum@erciyes.edu.tr",
+        "website": "https://baum.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":7 ,
+        "title": " Çevre Sorunları ve Temiz Üretim Araştırma ve Uygulama Merkezi",
+       "description":"Erciyes Üniversitesi Çevre Sorunları ve Temiz Üretim Uygulama ve Araştırma Merkezi, 2547 Sayılı Yükseköğretim Kanunu’nun 4. ve 5. maddelerinde belirtilen amaçlar ve ilkeler doğrultusunda kurulmuş ve Merkezin Yönetmeliği 16.01.1991 tarih ve 20757 sayılı Resmi Gazetede yayınlanarak yürürlüğe girmiştir. 10.01.2013 tarihinde merkez müdürlüğü görevine Prof. Dr. Oktay ÖZKAN atanmıştır. Prof. Dr. Oktay ÖZKAN'ın 16.09.2022 tarihinde ERÜ Rektör Yardımcısı olarak atanmasının ardından yerine Doç. Dr. Hamdi MIHÇIOKUR merkez müdürü olarak görevlendirilmiştir.",
+        "email": "ercevrem@erciyes.edu.tr",
+        "website": "https://ercevrem.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      }, 
+      {
+        "id": 8,
+        "title": " Deneysel Araştırmalar Uygulama ve Araştırma Merkezi",
+       "description":"Merkez geleceğe yönelik süreçlerini aşağıdaki gibi iyileştirmeyi planlamaktadır. Deneysel Araştırmalar Uygulama ve Araştırma Merkezi 1997 yılından itibaren aynı birimde özel üretilmiş laboratuvar hayvanları üzerinde deneyler ve araştırmalar yapılmak üzere inşa edilmiş bir merkezdir. Laboratuvar Hayvanları bilim alanı sürekli gelişen bir alan olması nedeniyle gelecekte merkezin gerek fiziki şartları gerekse özel nitelikli deney hayvanı modeli (Transgenik fare, Nude Mouse gibi) yetiştirilmesi planlanmaktadır. Yürütülecek bilimsel araştırmalarla birlikte deney hayvanları üretiminde de kalite ve kantitenin arttırılması hedeflenmektedir. Bu nedenle; başlangıçta tamamen bir deney hayvanları üretimi ve üretilen deney hayvanlarının bilimsel çalışmalarda kullanımı amacıyla inşa edilen merkez gerek üniversitenin doğrudan desteği, gerekse bilimsel araştırma projeleri birimine ve ulusal proje destekleme kuruluşlarına hazırlanacak alt yapı projeleri ile mevcut teçhizatın/laboratuvar cihazlarının yenilenmesi, fiziki şartların iyileştirilmesi ve farklı deney hayvanı modellerinin üretimleri planlanmaktadır. Merkez, stratejik planı çerçevesinde, akademik öncelikleriyle uyumlu, değer üretebilen ve toplumsal faydaya dönüştürülebilen araştırma ve geliştirme faaliyetlerini teşvik etmektedir. Bu bağlamda; DEKAM laboratuar hayvanları biliminde hizmet ve desteğini sürdürmektedir. Laboratuvar Hayvanlarının kullanıldığı çalışmalara verilen destekler; biyomedikal ile sağlık bilimleri alanında faaliyet gösteren Tıp, Veteriner Hekimliği, Diş Hekimliği, Eczacılık, Fen Fakülteleri ve Beşeri ve Hayvan hastanelerinde çalışan tüm araştırmacıları ve lisansüstü eğitim yapan öğrencileri kapsamaktadır. Merkezin destek verdiği bilimsel proje, araştırmalar ve uygulamalı eğitimler insan ve hayvan sağlığını ilgilendiren konular üzerinde yoğunlaşmaktadır. Yukarıda belirtilen Sağlık Bilimleri alanları dikkate alınarak sektörün ve bu alanda çalışan araştırmacıların araştırmalarda kullanacakları özel teknik ve cihaz gerektiren deney modellerinin kuruma kazandırılması ve alanında yetişmiş öğretim üyeleri vasıtasıyla deney modelleri alanında çeşitli kurslar ve çalıştaylar düzenlemek. Merkezde biyomedikal ve sağlık bilimleri gibi pek çok alanda yürütülen tüm bilimsel çalışmalara veya uygulamalı eğitimlere öncelikle hayvan refahını gözeterek sağlıklı ve güvenli konvansiyonel deney hayvanı üretimini yaparak, gerekli hallerde deney hayvanı tedarikini sağlayarak, merkezin laboratuvar imkanlarını araştırmacılarla paylaşarak ve teknik elemanları ile teknik hizmet sağlayıp kısa vadeli hedeflerine ulaşmaya çalışmaktadır. Merkez aynı zamanda insan ve hayvan sağlığına hizmet prensibiyle yola çıkarak, fiziki şartlarını daha da iyileştirerek, araştırmacılardan gelecek olan taleplerle farklı/spesifik çalışma modeli olabilecek deney hayvanları ihtiyacını karşılayan ve daha fazla sayı ve kalitede bilimsel projelerin çalışılmasına zemin hazırlamak ileri dönem hedefleri arasındadır.",
+        "email": "dekam@erciyes.edu.tr",
+        "website": "https://dekam.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":9 ,
+        "title": "Eğitim Bilimleri ve Teknolojileri Uygulama ve Araştırma Merkezi",
+       "description":"Misyon: Eğitim alanında uygulanan ve öğrenme kalitesini artıracak kuram ve teorilerin hem uygulandığı hem de geliştirileceği,  Eğitim teknolojilerin en etkin şekilde kullanılmasında hizmet etmek adına, eğitim teknoloji entegrasyonunu doğru ve etkin şekilde uygulanma zeminleri hazırlamak ve bu konuda araştırmalara öncülük edecek ulusal düzeyde örnek ve öncü, uluslararası platformda saygın ve tercih edilen bir araştırma merkezi olmak.Vizyon: Eğitim Bilimleri ve Teknolojileri Uygulama ve Araştırma Merkezi, eğitim bilimleri ve eğitim teknolojisi alanlarında disiplinler arası yüksek nitelikli araştırma ve geliştirme çalışmaları yapmak, okulöncesi, ilk, orta ve yükseköğretimde niteliğin yükseltilmesi yönünde araştırma, geliştirme ve eğitim çalışmalarında bulunmak, eğitimcilere yönelik hizmet içi eğitim çalışmaları düzenlemek.",
+        "email": "ebtam@erciyes.edu.tr",
+        "website": "https://ebtam.erciyes.edu.tr/",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":10 ,
+        "title": "Enerji Dönüşümleri Araştırma ve Uygulama Merkezi",
+       "description":"",
+        "email": "erdom@erciyes.edu.tr",
+        "website": "https://erdom.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id": 11,
+        "title": "Hakan Çetinsaya İyi Klinik Uygulama ve Araştırma Merkezi",
+       "description":"1 .Vizyon: Yerli ve yabancı ilaç firmalarının İlaç Araştırma ve Geliştirme çalışmalarında sürekli gelişme düşüncesinden hareketle yüksek kalitede veri üreterek standartları belirleyen mükemmeliyet odaklı ve güvenilir öncü klinik olmak.2. Misyon: Klinik olarak Ulusal mevzuatların geliştirilmesi, etik değerlerin ve toplum çıkarlarının korunması ve iyileştirilmesi ile sağlık ekonomisine katkıda bulunarak Türk ilaç sanayinin gelişmesini sağlamak. Başta yerli ilaç sanayimiz olmak üzere tüm dünyadaki ülkelere hizmet verilerek hem döviz çıktısı engellenmekte hem de döviz girdisi sağlamaktır. Öncelikli hedefimiz etik değerlerin ve toplum çıkarlarının korunması ve iyileştirilmesi ile sağlık ekonomisine katkıda bulunmak ve klinik ilaç araştırmaları alanında uluslararası bilgi üreten ve bu alanda yön veren bir merkez konumuna gelmektir.3. Kalite Politikası: Ulusal ve uluslar arası standartlar, kanun ve yönetmelikleri esas alarak; araştırmalara katılan gönüllülerin sağlık ve esenliğini korumak, çalışan memnuniyeti odaklı, ölçme ve iyileştirme mekanizmalarını kullanarak sürekli eğitimle gelişmeyi desteklemek böylece, ulusal ve uluslar arası ilaç sektörüne yüksek kaliteli hizmet sunmak.",
+        "email": "ikum@erciyes.edu.tr",
+        "website": "https://ikum.erciyes.edu.tr/",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id": 12,
+        "title": " İlaç Uygulama ve Araştırma Merkezi (ERFARMA)",
+       "description":"Merkezin kuruluş amacı; bireyleri hastalıklara karşı koruma, tedavi etme veya mevcut hastalığın belirtilerini azaltma yönünde etki sağlamak üzere gerçekleştirilen İlaç Araştırma Geliştirme (Ar-Ge) ve Uygulama çalışmaları kapsamında, öncelikle Erciyes Üniversitesi bünyesinde ilaçla ilgili araştırma, deneme üretimi ve ilgili analizlerde yer almaktır. Hedefimiz, ilaç üretim faaliyetlerinin geliştirilmesi, preklinik etkinlik ve güvenlik denemelerinin yapılması, klinik terapötik ilaç düzeyi takibi, toksik ve yasaklı madde analizleri ile birlikte hasta odaklı bireysel tedavi kapsamında farmakogenomik/farmakodinamik çalışmaların yürütülmesidir.Misyonumuz, merkezimizde tüm araştırmacılara, ilaç firmalarına, endüstriyel ortaklara Ar-Ge faaliyetlerini yürütme konusunda destek olmak ve hastanelere, kamu/özel kuruluşlarına, hastalara, uluslararası standartlarda hizmet vermektir. Merkezimizin var oluş amacı ise her türlü ilaç uygulamaları ve Ar-Ge çalışmalarının teknolojik anlamda donanımlı laboratuvarlarda multidisipliner ekibimizle yürütmektir.Vizyonumuz, yenilikçi ve mükemmeliyet odaklı bir uygulama ve araştırma merkezi olarak, dünyanın önde gelen Ar-Ge merkezleri arasında yer almak, preklinik/klinik uygulamalara yönelik faaliyette bulunmak, hastaların klinik tanı ve tedavi süreçlerine ileri laboratuvar analizleriyle katkı sağlamak, referans laboratuvarlar kurmak, yüksek kalitede veri üretmek ve insan sağlığına faydalı olmaktır.",
+        "email": "erfarma@erciyes.edu.tr",
+        "website": "https://erfarma.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":13 ,
+        "title": "İş Sağlığı ve Güvenliği Eğitimi Uygulama ve Araştırma Merkezi",
+       "description":"Merkez, iş sağlığı ve güvenliği alanında güvenilir kurumsal kimlik ile, kişisel koruma önlemlerinden çok toplu koruma önlemleriyle sürekli iyileştirilerek ve geliştirilerek insan ve çevreye duyarlı, alanında öncü, bilginin üretildiği merkez olmayı ilke edinmiştir.Eğitimi önceleyerek, iş sağlığı ve güvenliği konusunda bilinçli bireylerin yetişmesine öncülük etmek, araştırma odaklı çalışmalar yaparak toplumla paylaşmak ve bu amaçlar çerçevesinde faaliyet yürütmek.",
+        "email": "erigem@erciyes.edu.tr",
+        "website": "https://erigem.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id": 14,
+        "title": "Kadın Çalışmaları Araştırma ve Uygulama Merkezi",
+       "description":"ERÜ Kadın Çalışmaları Araştırma ve Uygulama Merkezi, özel ve kamusal alanda her çeşit ayrımcılıktan uzak, eşitlikçi, haklara saygılı ve özgürlükçü, fark ve değer yaratan, eşit statü ve her çeşit şiddetten korumalı bir toplumsal yaşamı vizyon olarak benimsemektedir.",
+        "email": "kacaum@erciyes.edu.tr",
+        "website": "https://kadincalismalari.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":15 ,
+       "title": " Kariyer Yönlendirme ve Bilgilendirme Merkezi (KAYBİMER)",
+          "description": "ERÜ-KAYBİMER, 2004/05 akademik yılında kurulmuş olup; 2006/2007 akademik yılı itibariyle faaliyetlerine İktisadi ve İdari Bilimler Fakültesi'nde yer alan ofisinde başlamış bulunmaktadır. 2017/2018 akademik yılı itibariyle merkez, faaliyetlerini Erciyes Üniversitesi öğrenci faaliyetleri ve Dış İlişkiler ofis binası zemin katında bulunan ofisinde sürdürmektedir. Merkezimiz üniversitemizde öğrenim gören lisans ve lisansüstü öğrencilerinin ve mezunlarının meslek, sektör ve işletme seçme sürecinde yönlendirilmelerine ve bilgilendirilmelerine katkıda bulunmaktadır. Üniversitemizin mezunlarının öncelikle bölgemizde ve tüm Türkiye’deki iş hayatında tercih edilen, kariyerlerini geliştirme imkânı bulan kişiler olmasına rehberlik etmek temel hedeflerimizdendir. Merkezimiz öğrencilerimizin almış oldukları mesleki eğitim ilgi alanlarına ve akademik birikimleri doğrultusunda kendilerini geliştirmeleri için yol göstermeyi ve eğitim ve isteklerine uygun meslek seçimine yardımcı olmayı amaçlamaktadır",
+          "email": "kaybimer@erciyes.edu.tr",
+          "website" : "https://kaybimer.erciyes.edu.tr/",
+          "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":16 ,
+        "title": "Kaşgarlı Mahmut Türkçe Öğretimi Uygulama ve Araştırma Merkezi",
+       "description":"",
+        "email": " erutomer@erciyes.edu.tr",
+        "website": "  https://erutomer.erciyes.edu.tr",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":17 ,
+        "title": " http://kayham.erciyes.edu.tr/",
+       "description":"Misyon:Kayseri’nin geçmişini doğru anlayarak, bugününü verimli/iyi değerlendirerek ve geleceğini akıllı planlayarak, ülkemizin temel değerleri ve stratejik hedeflerine uygun şekilde Kayseri’nin tarihî, sosyal, kültürel ve ekonomik kimliğini korumak ve geliştirilmesine katkıda bulunmak üzere, Kayseri İhtisas Kütüphanesi’ni kurmaktır.Vizyon:Kayseri hakkındaki yayınlanmış yazılı, görsel ve işitsel kaynakları toplayarak ve yayınlanacak olanları temin ederek arşiv kuran, temel sayısal verileri sistemleştirerek veri bankası oluşturan; ulusal ve uluslararası düzeyde işbirliği gerçekleştiren, evrensel ölçülerde bilimsel araştırma ve incelemelerin yapıldığı referans bir merkez olmaktır.",
+        "email": "kayham@erciyes.edu.tr",
+        "website": "  http://kayham.erciyes.edu.tr/",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":18 ,
+        "title": "Klinik Mühendisliği Araştırma ve Uygulama Merkezi (ERKAM)",
+       "description":"Misyonumuz; tıbbi teşhis ve tedavi amaçlı cihaz teknolojilerinin geliştirilmesinde, bakımında ve işletilmesinde mühendislik bilgi birikimi ve tekniklerini kullanarak sağlık hizmetlerinin kalitesini ve verimliliğini arttırmak, Türkiye’nin biyomedikal mühendisliği alanında araştırma potansiyelini geliştirmek, tıbbi cihazlar konusunda dışa bağımlılığı azaltmak için, Tıp Fakültesinde Merkezle ilgili anabilim ve bilim dallarıyla ve Üniversitenin Mühendislik Fakültesinde Merkezle ilgili bölümleri arasında işbirliğini tesis ederek bilimsel araştırma ve geliştirme faaliyetlerinde bulunmak, biyomedikal mühendisliği öğrencilerine, biyomedikal mühendisliği bölümü ile koordinasyon halinde staj ve/veya uygulama dersleri imkanı oluşturmak, bu alanda daha pratik ve güncel bilgilere ulaşmalarını sağlamak, biyomedikal mühendisliği eğitim-öğretimine katkıda bulunmaktır. Bu çerçevede;Lisans bitirme projeleri, lisansüstü eğitim projeleri ve araştırma projeleri ve benzeri konularda tıbbi teknolojiler ile ilgili projeler geliştirmek,Tıbbi cihaz tasarımı ve araştırma ve geliştirme (Ar-Ge) çalışmaları yapmak,Mevcut cihaz ve/veya sistemlerde modifikasyon yapmak,Tıbbi cihazların kalibrasyonunu yapmak,Hastanemize alınan cihazların testi, kabulü ve şartnameler konusunda danışmanlık hizmetleri vermek,Hizmet içi eğitim programları, ulusal ve uluslararası seminerler, sempozyum, kongre ve konferanslar düzenlemek,Dergi, kitap ve benzeri yayın faaliyetlerinde bulunmak,Tıbbi cihazların/sistemlerin bakımı, onarımı ve bu konularda hizmet alımları için danışmanlık hizmeti vermek. Vizyonumuz; Misyonumuzda tanımlanan alanlarda uygulama ve araştırma yapabilen bireyler yetiştirerek Klinik Mühendisliği alanında ülkemizde ve dünyada bulunan benzer merkezlerle rekabet edebilen bir merkez olmaktır.",
+        "email": "erkam@erciyes.edu.tr",
+        "website": "http://erkam.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":19 ,
+        "title": "Medya ve Din Araştırmaları Uygulama ve Araştırma Merkezi",
+       "description":"Medya ve Din ilişkisi ve bunun eğitimsel değeriyle ilgili olarak araştırma, eğitim ve insan kaynağı alanında kapasite geliştirme faaliyetleri yürütmeyi amaçlayan merkez, misyon ve önceliklerini; Medya ve Din ilişkisine yönelik mesleki gelişim ve eğitim kaynağı olanakları sunmak, Medya ve Din alanına ilişkin bilimsel girişimleri desteklemek ve bu doğrultuda uygulama ve araştırma kapasitesini güçlendirmek, hedef guruplar ve nihai faydalanıcıların Medya ve Din ilişkisi ve bunun eğitimsel değeri konusundaki duyarlılıklarını artırmak ve Medya ve Din alanına ilişkin ulusal ve uluslararası işbirlikleri gerçekleştirmek olarak belirlemiştir.Merkezin temel vizyonu Medya ve Din ilişkisine dair uluslararası bilimsel bir araştırma merkezi olmanın yanı sıra ülkemizde Medya ve Din ilişikiselliğinin eğitimsel değeri konusundaki duyarlılığı geliştirme çabalarına katkı sunmaktır. Bu doğrultuda medya ve din alanına ilişkin ilgili kurum ve kuruluşlarla işbirliği içinde kurs ve seminerler düzenlemek, medya ve din eğitiminin ilgili fakültelerin lisans ve lisansüstü eğitim müfredatlarında yer almasını sağlayacak çalışmalar yürütmek ve ilgili alanda faaliyet gösteren kamu ve sivil toplum kuruluşlarına konuyla ilgili raporlar hazırlayarak danışmanlık hizmeti sunmak bu husustaki önemli başlangıçları işaretlemektedir. ",
+        "email": " mediam@erciyes.edu.tr",
+        "website": " https://mediam.erciyes.edu.tr/",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":20 ,
+        "title": "Nanoteknoloji Uygulama ve Araştırma Merkezi (ERNAM)",  
+          "description": "MİSYONUMUZ: Nanoteknoloji konusundaki çalışmalar için gerekli laboratuvar imkanlarının Erciyes Üniversitesi ve diğer üniversitelerdeki akademisyenler ile kamu ve özel sektördeki araştırmacıların hizmetine sunulması, \nFiziki laboratuvar altyapısının nanoteknoloji alanındaki süregelen gelişmelere uygun olacak şekilde sürekli geliştirilmesi, \nNanoteknoloji konusunda ulusal ve uluslararası işbirlikleri ile araştırma projelerinin geliştirilmesi, \nUlusal ve uluslararası ikili işbirlikleri ile diğer nanoteknoloji araştırma merkezleri ile koordinasyonun sağlanması, \nÜniversite ve sanayi işbirliği ile projelerin geliştirilmesini ve uygulanmasını sağlamak, \nÇok disiplinli araştırma projeleri geliştirilmesi ve uygulama alanına aktarılmasının koordine edilmesi, \nErciyes Üniversitesi’nde nanoteknoloji alanında çalışan araştırmacıların koordinasyonunun sağlanması, \nErciyes Üniversitesi’nde nanoteknoloji alanındaki lisansüstü çalışmaları için gerekli akademik ve laboratuvar altyapılarının oluşturulması, \nHem Üniversite’de hem de toplumda farkındalık oluşturarak her seviyeden öğrencilerin nanoteknoloji konusundaki araştırmalara teşvik edilmesi, \nLisans ve lisansüstü öğrencilerine, araştırma anlayışı ve yöntemleri konusunda eğitim verilmesi ve öğrencilerin araştırma projelerinin uygulanmasına katkıda bulunması, \nNanoteknoloji alanındaki önemli araştırmacıların katılımıyla seminer, çalıştay ve kısa süreli araştırma ziyaretlerinin düzenlenmesi, \nAraştırmacılar arası bilimsel proje yarışmaları düzenlenerek bilimsel ve uygulamalı çalışmalara teşvik edilmesi hedeflenmektedir.\n\nVİZYONUMUZ: ERNAM’ın vizyonu, Erciyes Üniversitesi’nde nanoteknoloji çalışmaları konusunda bir mükemmeliyet merkezi oluşturmaktır. Merkezin etki alanının Kayseri ve civarından başlayıp, önce Türkiye sonrasında ise dünyayı kapsaması ve nanoteknoloji ile ilgili eğitim, araştırma ve araştırmacı alt yapısı, bilimsel yayın, patent, ticari ürünlerin geliştirilmesi alanlarında Erciyes Üniversitesinin evrensel ölçütlerde saygın bir kurum haline getirilmesine katkıda bulunulması hedeflenmektedir.",
+          "email": "ernam@erciyes.edu.tr",
+        "website": "https://ernam.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":21 ,
+        "title": "Psikolojik Danışma ve Rehberlik Uygulama ve Araştırma Merkezi (ERREM)",
+       "description":"Bilimsel ve teknolojik yeniliklerle hızla değişen dünyamızda, karmaşık toplum yapısına uyumun, mümkün olan en iyi şekilde sağlanması zorunlu hale gelmiştir. Bir yandan okullardaki öğrenci sayısı hızla artarken, diğer yandan rekabetin çoğalmasıyla birlikte gelecek kaygısı ortaya çıkmaktadır. Dolayısıyla bu faktörler bireylerin ruh sağlığını olumsuz yönde etkilemektedir.Postmodernitenin yalnızlaştırdığı insanoğlu, sorunlarıyla daha fazla yüz yüze gelmektedir. İnsanı aşırı yücelten ve benliğinin esiri haline getiren kişisel gelişim adı altındaki çalışmalar, bireyin sorunlarının daha içinden çıkılmaz hale gelmesine ve bireyin gerçeklerle yüzleştikçe hayal kırıklığı yaşamasına neden olmaktadır.Üniversite yılları, öğrencilerin kişisel, sosyal, akademik ve mesleki alanlarda birçok yenilikle karşılaştığı, yeni sorumluluklar aldığı ve en önemlisi yeni bir yaşam tarzı edinmek durumunda kaldığı bir dönemi kapsamaktadır. Bu dönemde öğrenciler, kendilerine destek olabilecek kaynakları harekete geçiremediklerinde yoğun kaygı yaşayabilmekte ve ciddi akademik kayıplarla karşılaşabilmektedirler. Bu geçiş döneminde öğrenciler, var olan potansiyellerini geliştirmelerine, yeni beceriler kazanmalarına ve daha etkin bir yaşam sürmelerine yardımcı olacak, aynı zamanda karşılaştıkları çeşitli sorunlara yönelik kendilerine destek olacak birimlere ihtiyaç duymaktadır.İşte bu amaçla, Kasım 2009 ‘dan beri ERÜ Psikolojik Danışma ve Rehberlik Uygulama ve Araştırma Merkezi (ERREM)  faaliyet göstermektedir.",
+        "email": "errem@erciyes.edu.tr",
+        "website": ": https://errem.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":22 ,
         "title": " Stratejik Araştırmalar Merkezi (ERUSAM)",
         "description": "Bir ülkenin kendisini yakından ilgilendirecek bölgesel ve küresel anlamda ortaya çıkan veya çıkması muhtemel gelişmeleri öngörebilmesi, onlara karşı önceden tedbirini alabilmesi, hızlı, sağlıklı ve milli çıkarlarına uygun dinamik refleksler geliştirip kararlar verebilmesi için çevresi hakkında ayrıntılı, tarafsız ve doğru bilgilere ihtiyacı vardır. Fakat elde edilen bilgiler kadar, onların doğru analizlerinin yapılması ve bu analizlerin de ulusal stratejiler oluşturmak için kullanılması son derece önemlidir. Soğuk Savaş’ın sona ermesiyle değişen güçler dengesi devletlerin iç ve dış politikalarında ve devletler arası ilişkilerde derin değişimlere neden olmuştur. Bu ani değişim sonrasında ortaya çıkan yeni güçler dengesi ve küreselleşme algısı çerçevesinde yeni bir dünya düzeninin temelleri atılmaya başlanmıştır. İşte bu yeni düzende kendisine yer ve misyon belirleme ihtiyacı duyan Türkiye, jeopolitik durumu ve sahip olduğu siyasi, sosyal, kültürel potansiyeller doğrultusunda milli bir strateji belirleme ihtiyacı ile karşılaşmıştır. Bu sebeple özellikle son on yılda ülkemizde çok sayıda özel ve tüzel stratejik araştırmalar merkezi açılmıştır. Bizden yıllar evvel stratejik araştırmaların önemini fark etmiş Batılı ülkelere kıyasla bugün Türkiye’de faaliyet gösteren merkezlerin sayısının oldukça az olduğunu görmekteyiz. Bu alandaki ihtiyaçları karşılamak ve yakın çevremizde gelişen olayların yorumlanmasında fikir zenginliğini arttırmak, Türkiye’nin bölgesel ve küresel anlamda uyguladığı ve uygulayacağı politikalara temel oluşturacak stratejilerin belirlenmesine katkıda bulunmak amacıyla Erciyes üniversitesi bünyesinde Erciyes üniversitesi Stratejik Araştırmalar Merkezi (ERUSAM) 2011 tarihinde faaliyete geçirilmiştir. ERUSAM, iç politikada etnik yapıyı inceleme konusu olarak seçerken, dış politikada Türkiye’yi yakından ilgilendiren Ortadoğu, Afrika ve Avrasya coğrafyasını araştırma alanı olarak belirlemiştir. Bu bağlamda araştırma alanlarıyla ilgili olarak sürekli gündemi takip etmek ve analiz yapmak, üzerine aldığı vazifelerin başında gelmektedir. Bilginin paylaşılmadıkça hiçbir değere sahip olmadığının bilincindeki ERUSAM, okuyucularına bu bilgilere kolayca ulaşabilme imkanı sunmaktadır. Tarafsızlığı kendisine ilke edinen ERUSAM, güncel meselelere ilişkin yayınladığı makaleler, raporlar, dergiler ve düzenleyeceği paneller, konferanslar ve sempozyumlar aracılığı ile Türk ve dünya kamuoyunu aydınlatmayı amaçlamaktadır. Araştırma ve analizlerini Türkiye temelinde yürüten merkezimiz, ele alınan konulara sadece Türkiye gözüyle değil, diğer batılı ve doğulu ülkelerin gözüyle de değerlendirmeyi esas almaktadır. Misyonumuz: Erciyes Üniversitesinin üstlendiği genel misyon doğrultusunda, araştırma sahalarıyla ilgili çalışmaları en etkin şekilde sürdürmeyi sağlamaktır. Bu amaç doğrultusunda; kurumumuz yurt içi ve yurt dışı benzer kuruluşlarla işbirliğine önem verir. İç politikada siyasi, sosyal, kültürel ve ekonomik problemlerin çözümünde ve dış politikada milli bir stratejinin belirlemesinde Türk karar alıcılarına fikir üretmeyi hedefler. Vizyonumuz: Araştırma konusu ülkelerin siyasi, askeri, kültürel, etnik yapıları ve bulundukları bölge hakkında detaylı, doğru ve tarafsız bilgilere ulaşmak, bu bilgiler ışığında bahsi geçen ülkelerin günümüzdeki iç ve dış politika analizlerini yapmaktır",
         "email": "erusam@erciyes.edu.tr",
@@ -9,7 +169,7 @@
         "createdAt": "2024-12-09T08:00:00Z"
       },
       {
-        "id": 2,
+        "id":23 ,
         "title": "Sürekli Eğitim Merkezi (ERSEM)",
         "description": "Erciyes Üniversitesinde örgün ön lisans, lisans ve lisansüstü eğitim-öğretim programları dışında, eğitim verdiği ve araştırma yaptığı tüm alanlarda eğitim programları düzenlemek suretiyle Üniversitenin kamu ve özel sektör, ulusal ve uluslararası kuruluşlar ile işbirliğinin gelişmesine katkıda bulunmak",
         "email": "ersem@erciyes.edu.tr",
@@ -17,13 +177,53 @@
         "createdAt": "2024-12-09T08:00:00Z"
       },
       {
-          "id": 3,
-          "title": " Kariyer Yönlendirme ve Bilgilendirme Merkezi (KAYBİMER)",
-          "description": "ERÜ-KAYBİMER, 2004/05 akademik yılında kurulmuş olup; 2006/2007 akademik yılı itibariyle faaliyetlerine İktisadi ve İdari Bilimler Fakültesi'nde yer alan ofisinde başlamış bulunmaktadır. 2017/2018 akademik yılı itibariyle merkez, faaliyetlerini Erciyes Üniversitesi öğrenci faaliyetleri ve Dış İlişkiler ofis binası zemin katında bulunan ofisinde sürdürmektedir. Merkezimiz üniversitemizde öğrenim gören lisans ve lisansüstü öğrencilerinin ve mezunlarının meslek, sektör ve işletme seçme sürecinde yönlendirilmelerine ve bilgilendirilmelerine katkıda bulunmaktadır. Üniversitemizin mezunlarının öncelikle bölgemizde ve tüm Türkiye’deki iş hayatında tercih edilen, kariyerlerini geliştirme imkânı bulan kişiler olmasına rehberlik etmek temel hedeflerimizdendir. Merkezimiz öğrencilerimizin almış oldukları mesleki eğitim ilgi alanlarına ve akademik birikimleri doğrultusunda kendilerini geliştirmeleri için yol göstermeyi ve eğitim ve isteklerine uygun meslek seçimine yardımcı olmayı amaçlamaktadır",
-          "email": "kaybimer@erciyes.edu.tr",
-          "website" : "https://kaybimer.erciyes.edu.tr/",
-          "createdAt": "2024-12-09T08:00:00Z"
-}
+        "id":24 ,
+        "title": " Tarımsal Araştırma ve Uygulama Merkezi (ERUTAM)",
+       "description":"Erciyes Üniversitesi bünyesinde tarım bilimleri alanında faaliyet gösteren birimler, çalışanlar ve öğrencileri tarımsal araştırma ve eğitim-öğrenim faaliyetlerini koordinasyon ederek bitkisel, hayvansal ve gıda üretimi ile ilgili Fakülte ve Meslek Yüksekokullarının ön lisans, lisans ve lisansüstü öğretim programlarında öngörülen uygulama dersleri, pratik çalışmalar, staj, tez ve araştırma projeleri için uygun yer, materyal ve hizmet sağlamaktır. Ayrıca, bitkisel ve hayvansal üretim alanları, bitkisel ve hayvansal kaynaklı gıda üretimi, hayvan, bitki sağlığı, tarımsal mekanizasyon, biyoteknoloji, biyosistem, biyoenerji, tarım ekonomisi, toprak ve bitki besleme ve tarımı ilgilendiren diğer alanlarda; çağdaş temel ve teknolojik uygulamalar yapmak ve bu alanlardaki çalışmalara destek olmaktır.",
+        "email": " erutam@erciyes.edu.tr",
+        "website": " https://erutam.erciyes.edu.tr/ ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":25,
+        "title": "Teknoloji Araştırma ve Uygulama Merkezi (TAUM)",
+       "description":"Erciyes Üniversitesi Teknoloji Araştırma ve Uygulama Merkezi’nin vizyonu, Erciyes Üniversitesi’nin araştırma yeteneği ve bilgi birikiminden faydalanarak Avrupa ve dünyadaki araştırma merkezleriyle ortaklık sağlamak, ortak proje ve önerileri birlikte değerlendirmek, uluslar arası arenada ismini duyurmaktır.Merkez bünyesindeki analiz laboratuarlarını Erciyes Üniversitesi ve diğer Türk Üniversiteleri ile kamu ve özel kuruluşların hizmetine sunulması, Yüksek öğrenim düzeyindeki pratik çalışmaları ele alıp incelemek, araştırmalar yapmak, yapılan araştırmaları teşvik etmek, desteklemek ve katkıda bulunulması, Çağdaş eğitim yöntemlerinin uygulanmasında teknolojik gelişmeler ve uygulama alanları konusunda analiz ve çalışmalar yapmak, Üniversite dışında kamu kurum ve kuruluşlarıyla özel teşebbüs kuruluşlarından gelebilecek ortak projeleri, önerileri değerlendirmek, araştırmalar yapmak ve ilgili kuruluşlara önerilerde bulunmak,",
+        "email": " erutaum@gmail.com",
+        "website": "http://taum.erciyes.edu.tr ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":26 ,
+        "title": " Teknoloji Transferi Uygulama ve Araştırma Merkezi (ETTOMER)",
+       "description":"Merkezin amaçları şunlardır:Erciyes Üniversitesi bünyesindeki tüm teknoloji transferi faaliyetlerini planlamak ve koordine etmek.Üniversitede geliştirilen teknolojilerin ticarileşebilmesini sağlamak amacıyla teknoloji transfer ofisi görevlerini yerine getirmek.Üniversitedeki bilgiyi ticarileştirmek için iş dünyası ile işbirliği yapmak.Uygulamaya yönelik olarak elde edilen somut projelerin hayata geçirilmesini sağlamak.Girişimci ve yenilikçi projelerin gerçekleşebilmesi için bir kuluçka merkezi oluşturarak her türlü bilimsel, teknik ve işletmecilik konularında destek vermek, bu amaçla ulusal ve uluslararası kaynaklardan desteklenen projeler hazırlamak ve yürütmek. Araştırma merkezleri ve araştırma laboratuvarları ile ilişki içerisinde bu birimleri koordine etmek ve üniversitenin araştırma strateji ve politikaları ile uyumlu bir şekilde çalışmaları için katkıda bulunmak.",
+        "email": "ettomer@erciyes.edu.tr",
+        "website": " https://ettomer.erciyes.edu.tr ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":27 ,
+        "title": "Uluslararası Botanik Bahçesi Uygulama ve Araştırma Merkezi",
+       "description":"",
+        "email": "botanikbahcesi@erciyes.edu.tr",
+        "website": "https://botanikbahcesi.erciyes.edu.tr ",
+        "createdAt": "2024-12-09T08:00:00Z"
+     },
+      {
+        "id":28 ,
+        "title":"Uzaktan Eğitim Uygulama ve Araştırma Merkezi (ERUZEM)",
+        "description": "Üniversitemizin misyonu; ülkemizin temel değerleri ve stratejik hedeflerine uygun eğitim sunmak, evrensel geçerliliği olan bilgi ve beceriler ile donatılmış bireyler yetiştirmek; bilime katkı sağlayacak, ülkede ve dünyada kullanılabilir ve paydaşlara yararlı olacak bilgi ve teknoloji üretmek, şehrinde ve bölgesinde kaliteli sağlık hizmeti sunmak, mensuplarının ve toplumun sosyal, kültürel, sanatsal ve sportif gelişimine katkı sağlayacak etkinlikler düzenlemektir.Bilimsel çalışmalarda, bilgi ve teknoloji üretiminde, kültürel, sosyal, sanatsal ve sportif etkinliklerde Türkiye’de önde gelen ve dünyada saygın; mezunları tercih edilen ve aranan; uluslararası nitelikte öğrenci ve öğretim elemanı yapısına sahip; paydaşların gereksinimlerini hızlı, kaliteli ve etkili çözümlerle karşılayan öncü bir üniversite olmaktır.Üniversitemizin misyonu; ülkemizin temel değerleri ve stratejik hedeflerine uygun eğitim sunmak, evrensel geçerliliği olan bilgi ve beceriler ile donatılmış bireyler yetiştirmek; bilime katkı sağlayacak, ülkede ve dünyada kullanılabilir ve paydaşlara yararlı olacak bilgi ve teknoloji üretmek, şehrinde ve bölgesinde kaliteli sağlık hizmeti sunmak, mensuplarının ve toplumun sosyal, kültürel, sanatsal ve sportif gelişimine katkı sağlayacak etkinlikler düzenlemektir.",
+        "email": " eruzem@erciyes.edu.tr",
+        "website": "http://eruzem.erciyes.edu.tr ",
+        "createdAt": "2024-12-09T08:00:00Z"
+      },
+      {
+        "id":29,
+        "title": " Vektörler ve Vektörlerle Bulaşan Hastalıklar Uygulama ve Araştırma Merkezi",
+       "description":"",
+        "email": " ervec@erciyes.edu.tr",
+        "website": " https://vvbhm.erciyes.edu.tr/",
+        "createdAt": "2024-12-09T08:00:00Z"
+      }
     ]
   }
   

@@ -12,7 +12,9 @@
       <!-- Logo -->
        <img src="@/public/images/erülogo.png" alt="Logo" class="h-10 lg:mr-4" />
       <img src="@/public/images/erüarsdeklogo.png" alt="Logo" class="h-10 lg:mr-4" />
-<span class="text-xl font-bold text-blue-900">Araştırma Dekanlığı İş Birliği</span>
+      <span class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-blue-900">
+  Araştırma Dekanlığı İş Birliği
+</span>
 
 
       <!-- Menü Ikonu (Mobilde) -->
@@ -57,14 +59,21 @@
           <groupIcon class="text-blue-900 text-lg" />
           <NuxtLink to="/grup" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">Gruplar</NuxtLink>
         </li>
+        <li class="flex items-center space-x-2">
+          <merkezIcon class="text-blue-900 text-lg" />
+          <NuxtLink to="/merkez" class="text-2xl font-semibold text-blue-900 hover:text-blue-700">Merkezler</NuxtLink>
+        </li>
+      <!--  
         <li class="flex items-center space-x-2" @click="closeMenu">
           <ListIcon class="text-blue-900 text-lg" />
           <NuxtLink to="/PageList" class="text-xl font-semibold text-blue-900 hover:text-blue-700">İlan Listesi</NuxtLink>
         </li>
+
         <li class="flex items-center space-x-2" @click="closeMenu">
           <PlusIcon class="text-blue-900 text-lg" />
           <NuxtLink to="/ilanEkle" class="text-xl font-semibold text-blue-900 hover:text-blue-700">İlan Ekle</NuxtLink>
         </li>
+        -->
       </ul>
     </div>
   </div>

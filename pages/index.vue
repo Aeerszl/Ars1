@@ -4,12 +4,15 @@
   <div class="bg-gray-50 min-h-screen">
     <!-- Hoşgeldiniz Mesajı -->
     <section class="bg-blue-900 text-white py-12 text-center">
-      <h1 class="text-4xl font-bold">Hoşgeldiniz</h1>
-      <p class="mt-2 text-lg">
-        "Erciyes Üniversitesi Araştırma ve İşbirliği İlanlarına Hoş Geldiniz"
-      </p>
-      <span class="italic"> "Yeni İşbirliği Fırsatları İçin Gruplara Göz Atın!"</span>
-    </section>
+  <h1 class="text-3xl sm:text-4xl font-bold">Hoşgeldiniz</h1>
+  <p class="mt-2 text-base sm:text-lg">
+    "Erciyes Üniversitesi Araştırma ve İşbirliği İlanlarına Hoş Geldiniz"
+  </p>
+  <span class="italic text-sm sm:text-base">
+    "Yeni İşbirliği Fırsatları İçin Gruplara Göz Atın!"
+  </span>
+</section>
+
 
     <!-- Bilgilendirme İçerikleri ve İstatistikler -->
     <section class="py-12 px-4">
@@ -23,7 +26,7 @@
         <div class="bg-white shadow-md rounded-lg p-6">
           <div class="text-green-600 text-4xl mb-4">
           </div>
-          <h2 class="text-2xl font-semibold text-blue-900">"10+ Araştırma Merkezi"</h2>
+          <h2 class="text-2xl font-semibold text-blue-900">"30+ Araştırma Merkezi"</h2>
           <p class="mt-2 text-gray-600">Gelişmiş araştırma merkezleriyle iş birliği fırsatlarını keşfedin.</p>
         </div>
         <div class="bg-white shadow-md rounded-lg p-6">
@@ -37,26 +40,27 @@
 
 <!-- İş Birliği Teklifi Card -->
 <section class="py-6 px-4">
-  <Card class="w-[99%] max-w-screen-2xl mx-auto bg-white shadow-md rounded-lg p-4 flex items-center justify-between">
-  <div class="flex items-center space-x-4">
-    <CardTitle class="text-xl sm:text-2xl font-semibold text-blue-900">
-      İş Birliği Tekliflerinizi Bekliyoruz!
-    </CardTitle>
-    <CardDescription class="text-gray-600">
-      Bizimle iş birliği yaparak projelerinizde yeni ufuklara yelken açın.
-    </CardDescription>
-  </div>
-  <CardFooter>
-    <Button
-      class="bg-blue-500 text-white hover:bg-blue-600 px-6 py-2"
-      @click="isCollaborationFormOpen = true"
-    >
-      İş Birliği Teklif Et <Handshake />
-    </Button>
-  </CardFooter>
-</Card>
-
-</section>
+    <Card class="w-full max-w-screen-2xl mx-auto bg-white shadow-md rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between">
+      <div class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
+        <div>
+          <CardTitle class="text-xl sm:text-2xl font-semibold text-blue-900">
+            İş Birliği Tekliflerinizi Bekliyoruz!
+          </CardTitle>
+          <CardDescription class="text-gray-600">
+            Bizimle iş birliği yaparak projelerinizde yeni ufuklara yelken açın.
+          </CardDescription>
+        </div>
+      </div>
+      <CardFooter class="mt-4 sm:mt-0">
+        <Button
+          class="bg-blue-500 text-white hover:bg-blue-600 px-6 py-2"
+          @click="isCollaborationFormOpen = true"
+        >
+          İş Birliği Teklif Et <Handshake />
+        </Button>
+      </CardFooter>
+    </Card>
+  </section>
 
 <Dialog v-model:open="isCollaborationFormOpen">
   <DialogContent class="w-full max-w-[90%] sm:max-w-[75%] md:max-w-[60%] lg:max-w-[50%] p-6 bg-white rounded-lg shadow-lg">

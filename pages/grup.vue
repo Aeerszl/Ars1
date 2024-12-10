@@ -57,6 +57,7 @@
       show-edges 
       :default-page="1" 
       :itemsPerPage="9"
+      class="mt-6"
     >
       <PaginationList 
         v-slot="{ items }" 

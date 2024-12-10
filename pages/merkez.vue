@@ -56,16 +56,19 @@
     <!-- Pagination -->
     <Pagination 
       v-slot="{ page }" 
-      :total="97" 
+      :total="29" 
       :sibling-count="1" 
       show-edges 
       :default-page="1" 
       :itemsPerPage="9"
+      class="mt-6"
+
     >
       <PaginationList 
         v-slot="{ items }" 
         class="flex items-center gap-2 justify-center flex-wrap sm:gap-4 sm:flex-nowrap"
-      >
+    
+        >
         <!-- İlk Sayfa Butonu -->
         <PaginationFirst class="hidden sm:block" />
         
@@ -211,7 +214,7 @@ const paginatedCards = computed(() => {
 });
 
 const totalPages = computed(() => {
-  return Math.ceil(totalCards.value / 9); // 9 kart başına bir sayfa
+  return Math.ceil(cards.value.length / 9); // Her sayfada 9 kart olacak şekilde toplam sayfa sayısını hesaplar
 });
 
 // HTML etiketlerini temizlemek için yardımcı fonksiyon
